@@ -1,0 +1,63 @@
+# Task 5 - Face Detection and Recognition
+
+## Objective
+Develop an AI-based Face Detection and Recognition system that detects human faces from images or webcam input using OpenCV and Haar Cascade Classifier.
+
+## Technologies Used
+- Python
+- OpenCV
+- Haar Cascade Classifier
+
+## Features
+- Detects human faces from images or webcam
+- Draws bounding boxes around detected faces
+- Fast and accurate face detection
+- Simple and user-friendly interface
+- Real-time face detection support
+
+## Project Structure
+```
+Task5_Face_Detection/
+│── face_detection.py
+│── haarcascade_frontalface_default.xml
+│── sample.jpg
+│── output.png
+│── README.md
+```
+
+## Installation
+
+Install the required library:
+
+```bash
+pip install opencv-python
+```
+
+## How to Run
+
+```bash
+python face_detection.py
+```
+
+## Sample Output
+
+```
+Image Loaded Successfully
+
+Face Detected: 1
+
+Detection Completed Successfully
+```
+
+## Future Enhancements
+- Face Recognition using Deep Learning
+- Attendance Management System
+- Real-time Face Recognition
+- Emotion Detection
+- Face Mask Detection
+
+## Author
+**Priyadharshini**
+
+## Internship
+This project was developed as part of the **CodSoft Artificial Intelligence Internship (Task 5 - Face Detection and Recognition)**.
