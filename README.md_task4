@@ -1,0 +1,80 @@
+# Task 4 - Movie Recommendation System
+
+## Objective
+Develop a Movie Recommendation System that suggests similar movies based on user preferences using Content-Based Filtering with TF-IDF Vectorization and Cosine Similarity.
+
+## Technologies Used
+- Python
+- Scikit-learn
+- TF-IDF Vectorizer
+- Cosine Similarity
+
+## Features
+- Displays a list of available movies
+- Accepts user input for movie selection
+- Recommends similar movies
+- Uses Content-Based Filtering
+- Calculates similarity using TF-IDF and Cosine Similarity
+- User-friendly command-line interface
+
+## Project Structure
+```
+Task4_Movie_Recommendation_System/
+│── movie_recommendation.py
+│── README.md
+│── output.png
+```
+
+## Installation
+
+Install the required library:
+
+```bash
+pip install scikit-learn
+```
+
+## How to Run
+
+```bash
+python movie_recommendation.py
+```
+
+## Sample Output
+
+```
+==================================================
+        MOVIE RECOMMENDATION SYSTEM
+==================================================
+
+Available Movies:
+- Interstellar
+- Inception
+- Titanic
+- Avengers
+- The Dark Knight
+- Frozen
+- Jurassic Park
+- The Conjuring
+- Harry Potter
+- Toy Story
+
+Enter a movie name: Interstellar
+
+Movies recommended for 'Interstellar':
+- Inception
+- Jurassic Park
+- Avengers
+```
+
+## Future Enhancements
+- Large movie dataset support
+- Movie posters
+- Genre-based recommendations
+- User rating system
+- Web application using Flask or Streamlit
+
+## Author
+**Priyadharshini**
+
+## Internship
+This project was developed as part of the **CodSoft Artificial Intelligence Internship (Task 4 - Movie Recommendation System)**.
