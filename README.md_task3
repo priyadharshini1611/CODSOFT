@@ -1,0 +1,34 @@
+# Task 3 - Image Captioning
+
+## Objective
+Develop an AI-based Image Captioning system that automatically generates descriptive captions for images using pre-trained deep learning models.
+
+## Technologies Used
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- Pillow
+
+## Features
+- Upload an image
+- Generate image captions automatically
+- Uses pre-trained deep learning models
+- Simple and user-friendly interface
+
+## How to Run
+
+```bash
+python image_captioning.py
+```
+
+## Future Enhancements
+- Support multiple languages
+- Real-time camera captioning
+- Speech output for captions
+
+## Author
+Priyadharshini
+
+## Internship
+CodSoft Artificial Intelligence Internship - Task 3
